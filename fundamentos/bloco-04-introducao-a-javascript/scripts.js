@@ -1,5 +1,4 @@
-let salary = 3500;
-console.log (salary + salary);
-console.log (salary - salary);
-console.log (salary * salary);
-console.log (salary / salary);
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+for (let name of names) {
+console.log (name)
+}
