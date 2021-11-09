@@ -1,4 +1,5 @@
-//Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+//Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+//Using for, find the biggest value contained in the array and print it;
 
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let highest=0;
