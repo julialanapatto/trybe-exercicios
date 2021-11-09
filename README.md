@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 3-4: _HTML Semântico_ :heavy_check_mark: 
 - [ ] 3-5: _[Projeto - HTML & CSS] :heavy_check_mark: 
 ##### Resultado do Projeto do Bloco 03
-![](resultados-dos-projetos/LessonsLearned.png)
+![](Projects/LessonsLearned.png)
 
 
 ##### Bloco 4: Introdução - JavaScript 
