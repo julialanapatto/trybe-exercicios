@@ -1,4 +1,4 @@
-##FRONT-END##
+<h2>FRONT-END</h2>
 
 Nesse módulo aprendi sobre formulários HTML, CSS Flexbox e a como utilizar bibliotecas externas de JavaScript. Na sequência aprendi a criar estilos de forma responsiva, com foco em diferentes tamanhos de tela. E então aprendi sobre as principais funcionalidades da última versão do JavaScript, o ES6. Na última parte, aprendi a utilizar o framework React para criar aplicações de front-end que se conectam com APIs.
 
@@ -7,7 +7,7 @@ Com isso me tornei capaz de criar páginas com formulários, estilizadas de form
 Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de Front-end do curso da Trybe.
 
 
-##FRONT-END##
+<h2>FRONT-END</h2>
 
 In this module I learned about HTML forms, CSS Flexbox and how to use external JavaScript libraries. Then I learned how to create styles in a responsive way, focusing on different screen sizes. And then I learned about the main features of the latest version of JavaScript, ES6. In the last part, I learned how to use the React framework to create front-end applications that connect with APIs.
 
