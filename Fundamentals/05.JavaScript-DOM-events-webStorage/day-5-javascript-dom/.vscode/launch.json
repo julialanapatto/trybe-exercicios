@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open exercises-5.1.html",
+            "file": "/home/julia/Trybe-exercises/Fundamentals/05.JavaScript-DOM-events-webStorage/day-5-javascript-dom/exercises-5.1.html"
+        }
+    ]
+}
