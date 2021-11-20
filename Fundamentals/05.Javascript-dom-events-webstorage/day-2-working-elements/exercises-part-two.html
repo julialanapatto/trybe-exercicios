@@ -27,7 +27,7 @@
     let irmaoElemento = document.createElement('section');
     irmaoElemento.id = 'irmaoElementoOndeVoceEsta';
     pai.appendChild(irmaoElemento)
-    //console.log(irmaoElemento);
+   ///console.log(irmaoElemento);
     
     //Crie um filho para elementoOndeVoceEsta 
     elemento = document.getElementById('elementoOndeVoceEsta');
@@ -39,11 +39,14 @@
     //Crie um filho para primeiroFilhoDoFilho
     let primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
     let filhoNovo = document.createElement('section');
-    filhoNovo.id = 'Filho Novo';
+    filhoNovo.id = 'filhoNovo';
     primeiroFilhoDoFilho.appendChild(filhoNovo);
-    console.log(filhoNovo);
+    //console.log(filhoNovo);
     
     //A partir desse filho criado, acesse terceiroFilho
+    const terceiroFilho = filhoNovo.parentElement.parentElement.nextElementSibling;
+    console.log (terceiroFilho)
+
 
   </script>
 </body>
