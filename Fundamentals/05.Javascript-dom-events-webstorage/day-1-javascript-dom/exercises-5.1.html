@@ -62,6 +62,7 @@
  /*Crie uma função que corrija o texto da tag <h1>.*/
     let correct = document.getElementsByTagName('h1');
     correct[0].innerText = 'Javascript'
+
  /*Crie uma função que modifique todo o texto da tag <p> para maiúsculo.*/
   let allParagraph = document.getElementsByTagName('p');
   function change () {
@@ -72,7 +73,13 @@
   change();
 
  /*Crie uma função que exiba o conteúdo de todas as tags <p> no console.*/
-  
+    function showParagraphs() {
+      let paragraphs = document.getElementsByTagName('p');
+      for (let index = 0; index < paragraphs.length; index += 1) {
+        console.log(paragraphs[index].innerHTML);
+      }
+    }
+    showParagraphs();
     </script>
   </body>
 </html>
