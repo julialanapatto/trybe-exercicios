@@ -47,13 +47,32 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+ Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)*/
+    let tagP = document.getElementsByTagName('p');
+    tagP[0].innerText = 'Na xp'
+
+ /*Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).*/
+    let squareYellow = document.getElementsByClassName('main-content');
+    squareYellow[0].style.background = 'rgb(76,164,109)'
+
+ /*Crie uma função que mude a cor do quadrado vermelho para branco.*/
+    let squareRed = document.getElementsByClassName('center-content');
+    squareRed[0].style.background = 'white'
+
+ /*Crie uma função que corrija o texto da tag <h1>.*/
+    let correct = document.getElementsByTagName('h1');
+    correct[0].innerText = 'Javascript'
+ /*Crie uma função que modifique todo o texto da tag <p> para maiúsculo.*/
+  let allParagraph = document.getElementsByTagName('p');
+  function change () {
+    for (let index of allParagraph) {
+    index.style.textTransform = 'uppercase'
+  }
+  }
+  change();
+
+ /*Crie uma função que exiba o conteúdo de todas as tags <p> no console.*/
+  
     </script>
   </body>
 </html>
