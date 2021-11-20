@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+    //Agora você! Faça o seguinte: recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito
+    let text = document.getElementById('page-title');
+    text.innerText = 'Interestelar';
+    //console.log(text)
+    //Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+    let second = document.getElementById('second-paragraph');
+    second.innerText = 'É o melhor filme do mundo, te faz pensar, refletir, se divertir, chorar...' 
+    second.style.color= "green";
+    //Por fim, recupere o subtítulo e altere-o também. -->
+    let subtitulo = document.getElementById('subtitle');
+    subtitulo.innerText= 'Se for para escolher um, sempre vai ser ele.';
+
+    //Bonus: decidi alterar o paragrafo vermelho também
+    paragraph.innerText = 'Um dos filmes mais inspiradores em todos os sentidos'
+
+    //Adicione uma classe igual para os dois parágrafos.
+    let selectParagraph = document.querySelectorAll('p');
+    for (let i = 0; i < selectParagraph.length; i +=1 ) {
+        selectParagraph[i].classList.add('nova-classe')
+    }
+   //Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+   let recupereParagrafos = document.getElementsByClassName('nova-classe');
+
+   //Altere algum estilo do primeiro deles.
+    recupereParagrafos[0].style.textAlign = 'center';
+    recupereParagrafos[0].style.color = 'darkgreen';
+    recupereParagrafos[0].style.fontSize = '20px';
+    recupereParagrafos[0].style.fontFamily = 'arial';
+
+   //Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .
+   let recuperaSubtitulo = document.getElementsByTagName ('h4')
+   recuperaSubtitulo[0].style.color = 'lightgreen';
+   recuperaSubtitulo[0].style.textAlign = 'center';
+    </script>
+  </body>
+</html>
+
+
