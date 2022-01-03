@@ -21,7 +21,7 @@
   //a chave age aparece tanto em person como em info e é sobrescrita pelo valor contido em info 
 
  */
-  const person = {
+/*   const person = {
     name: 'Roberto',
   };
   
@@ -30,11 +30,11 @@
   };
   
   const clone = Object.assign(person, lastName);
-  
+   */
 /*   console.log(clone); // { name: 'Roberto', lastName: 'Silva' }
   console.log(person); // { name: 'Roberto', lastName: 'Silva' } */
 
-  clone.name = 'Maria';
+/*   clone.name = 'Maria';
 
 console.log('Mudando a propriedade name através do objeto clone')
 console.log(clone); // Output: { name: 'Maria', lastName: 'Silva' }
@@ -52,3 +52,18 @@ person.lastName = 'bocó';
 console.log("mudamuda")
 console.log(clone);
 console.log(person);
+ */
+
+const band = {
+    name: 'Blind Guardian',
+    formedIn: 1986,
+    lastAlbum: 'Beyond the Red Mirror',
+  };
+  
+  const info = {
+    genre: 'Power Metal',
+    lastAlbum: 'Twilight Orchestra: Legacy of the Dark Lands',
+  };
+  
+  const final = Object.assign(band, info);
+  console.log(final)

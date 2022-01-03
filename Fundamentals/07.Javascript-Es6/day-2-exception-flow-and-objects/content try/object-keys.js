@@ -1,4 +1,4 @@
-/* const coolestTvShow = {
+const coolestTvShow = {
     name: "BoJack Horseman",
     genre: "adult animation",
     createdBy: "Raphael Bob-Waksberg",
@@ -6,13 +6,14 @@
     quote: "Princess Carolyn always lands on her feet.",
     seasons: 6,
   };
-/* 
+
   for (const property in coolestTvShow){
       console.log(property);
   } 
 
-  console.log(Object.keys(coolestTvShow)); */
+  console.log(Object.keys(coolestTvShow));
 
+  /*
   const student1 = {
     Html: 'Muito Bom',
     Css: 'Bom',
@@ -42,3 +43,4 @@ listSkills(student1);
 console.log('Estudante 2');
 listSkills(student2);
 
+ */

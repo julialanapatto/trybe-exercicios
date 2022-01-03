@@ -47,3 +47,4 @@
   
   // Com Object.values
   console.log(listSkillsValuesWithValues(student));
+

@@ -21,7 +21,7 @@
 
 
   //No exemplo acima, ao invés de reescrever o objeto inteiro, apenas adicionamos a nova propriedade. Para isso, basta seguir a sintaxe abaixo: objeto.nomeDaPropriedade objeto[variavelQueContemONomeDaPropriedade] . */
-  const customer = {
+/*   const customer = {
     firstName: 'Roberto',
     age: 22,
     job: 'Teacher',
@@ -35,3 +35,4 @@
 const fullName = `${customer.firstName} ${customer.lastName}`;
 customer[newKey] = fullName;
 console.log(customer);
+ */
