@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    background-color: lightsteelblue;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+   line-height: 2em;
+  }
+
+  .container {
+  flex-direction: column;
+  }
+
+  .aside-one {
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: purple;
+    margin-left: 20px;
+  }
+  .container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  h1 {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  body {
+    background-color: seagreen;
+  }
+  footer {
+    text-align: center;
+  }
+}
