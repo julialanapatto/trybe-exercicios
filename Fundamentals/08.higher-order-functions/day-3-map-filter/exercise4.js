@@ -61,13 +61,11 @@ const books = [
     },
   ];
 
-//1 - Crie um array com strings (usar map) no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
-//Adicione o código do exercício aqui:
+  //4 - Crie um array ordenado pelos livros com mais de 60 anos de publicação e ordene-o pelo livro mais velho.
 
-
-  function formatedBookNames() {
-      return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name} `)
-  };
-  console.log(formatedBookNames())
-
-
+function oldBooksOrdered() {
+    const year = new Date().getFullYear(); //gera uma string que representa uma data
+    return books.filter((book) => (book.releaseYear < year - 60))
+    .sort((bookA, bookB) => bookA.releaseYear - bookB.releaseYear);//ordena
+  }
+  console.log(oldBooksOrdered());

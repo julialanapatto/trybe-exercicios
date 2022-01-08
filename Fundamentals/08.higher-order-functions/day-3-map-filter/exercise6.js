@@ -60,14 +60,12 @@ const books = [
       releaseYear: 1928,
     },
   ];
+  
+  //6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
 
-//1 - Crie um array com strings (usar map) no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
-//Adicione o código do exercício aqui:
-
-
-  function formatedBookNames() {
-      return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name} `)
-  };
-  console.log(formatedBookNames())
-
-
+function oldBooks() {
+    const year = new Date().getFullYear();
+    return books.filter((book) => (book.releaseYear < year - 60))
+    .map((book) => book.name)
+  }
+  console.log(oldBooks()) 

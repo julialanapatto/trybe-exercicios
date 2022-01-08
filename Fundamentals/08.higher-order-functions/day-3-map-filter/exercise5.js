@@ -61,13 +61,12 @@ const books = [
     },
   ];
 
-//1 - Crie um array com strings (usar map) no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
-//Adicione o código do exercício aqui:
+  //5 - Crie um array em ordem alfabética (usar sort) apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 
-
-  function formatedBookNames() {
-      return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name} `)
-  };
-  console.log(formatedBookNames())
-
-
+ function fantasyOrScienceFictionAuthors() {
+    const wantedGenres = ['Fantasia', 'Ficção Científica'];
+    return books
+      .filter((book) => wantedGenres.includes(book.genre))
+      .map((book) => book.author.name).sort();
+  }
+  console.log(fantasyOrScienceFictionAuthors())

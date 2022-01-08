@@ -60,14 +60,10 @@ const books = [
       releaseYear: 1928,
     },
   ];
+//7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
-//1 - Crie um array com strings (usar map) no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
-//Adicione o código do exercício aqui:
-
-
-  function formatedBookNames() {
-      return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name} `)
-  };
-  console.log(formatedBookNames())
-
-
+function authorWith3DotsOnName() {
+    return books.find((book) => book.author.name[1] === '.' && book.author.name[4] === '.' && book.author.name[7] === '.').name;
+  }
+  
+  console.log(authorWith3DotsOnName())
