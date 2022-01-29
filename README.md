@@ -79,13 +79,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_ :heavy_check_mark: 
 - [ ] 9-2: _JavaScript Promises_ :heavy_check_mark: 
 - [ ] 9-3: _[Projeto - Carrinho de Compras]()_ :heavy_check_mark: 
+ 
+##### Bloco 10: Jest :heavy_check_mark: 
 
-##### Bloco 10: Jest 
-
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [ ] 10-1: _Primeiros passos no Jest_ :heavy_check_mark: 
+- [ ] 10-2: _Jest - Testes Assíncronos_ :heavy_check_mark: 
+- [ ] 10-3: _Jest - Simulando comportamentos_ :heavy_check_mark: 
+- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_ :heavy_check_mark: 
 
 ## Desenvolvimento Front-end 
 
@@ -94,6 +94,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 11-1: _'Hello, world!' no React!_ :heavy_check_mark: 
 - [ ] 11-2: _Componentes React_ :heavy_check_mark: 
 - [ ] 11-3: _[Projeto - Solar System()_ :heavy_check_mark: 
+- [ ] 
 ##### Bloco 12: React
 
 - [ ] 12-1: _Components com estado_
