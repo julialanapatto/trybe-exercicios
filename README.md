@@ -66,19 +66,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 7-3: _Testes unitários em JavaScript_  :heavy_check_mark: 
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_  :heavy_check_mark: 
 
-##### Bloco 8: JavaScript ES6 
+##### Bloco 8: JavaScript ES6 :heavy_check_mark: 
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_ :heavy_check_mark: 
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_ :heavy_check_mark: 
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_ :heavy_check_mark: 
+- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ :heavy_check_mark: 
+- [ ] 8-5: _[Projeto - Zoo functions]()_ :heavy_check_mark: 
 
-##### Bloco 9: Assincronicidade & Callbacks 
+##### Bloco 9: Assincronicidade & Callbacks  :heavy_check_mark: 
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_ :heavy_check_mark: 
+- [ ] 9-2: _JavaScript Promises_ :heavy_check_mark: 
+- [ ] 9-3: _[Projeto - Carrinho de Compras]()_ :heavy_check_mark: 
 
 ##### Bloco 10: Jest 
 
@@ -87,14 +87,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end 
 
-##### Bloco 11: Introdução - 
+##### Bloco 11: Introdução - :heavy_check_mark: 
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
-
+- [ ] 11-1: _'Hello, world!' no React!_ :heavy_check_mark: 
+- [ ] 11-2: _Componentes React_ :heavy_check_mark: 
+- [ ] 11-3: _[Projeto - Solar System()_ :heavy_check_mark: 
 ##### Bloco 12: React
 
 - [ ] 12-1: _Components com estado_
